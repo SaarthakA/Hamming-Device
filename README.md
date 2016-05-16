@@ -20,3 +20,4 @@ B3 B2 B1 P2 B0 P1 P0 .
 The receiver of such Hamming code words will re-compute the three parity bits and compare them with the ones that are received. 
 If one of the seven bits is corrupted, the erroneous bit will be detected as the one given by the syndrome 
 (which is the bit-wise XOR of the three re-computed and the original parity bits).
+**In the Simulation the noError will go low if corrupted bit is found**

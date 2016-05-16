@@ -7,7 +7,9 @@ and 3 parity bits P = P2, P1, P0 .
 The parity bits are determined by the following operations (^ = exclusive or):
 
 P2 = B3 ^ B2 ^ B1
+
 P1 = B3 ^ B2 ^ B0
+
 P0 = B3 ^ B1 ^ B0
 
 With 4 information bits, there are 16 possible valid code words. All others are considered invalid code words.
